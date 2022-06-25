@@ -20,7 +20,7 @@ function Header() {
 
 				</input>
 				<button onClick={submitGetUser}>
-					<span>Pesquisar</span>
+					<span>verificar</span>
 				</button>
 			</Estilo.Wrapper>
 

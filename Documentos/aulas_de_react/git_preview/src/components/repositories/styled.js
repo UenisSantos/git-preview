@@ -5,13 +5,17 @@ export const WrapperTabs = styled(Tabs)`
     font-size: 1rem;
     width: 100%;
     margin-top: 1rem;
+    color:white;
+
 `;
 
 export const WrapperTabList = styled(TabList)`
     list-style-type:none;
     padding:0.25rem;
     display: flex;
-    margin: 0;
+    color: rgb(45 45 46);
+
+
 `;
 WrapperTabList.tabsRole = "TabList";
 
@@ -23,12 +27,12 @@ export const WrapperTab = styled(Tab)`
     user-select: none;
     cursor: pointer;
     z-index:99999;
-    background-color: #fff;
+    background-color: grey;
 
     &:focus{
         outline:none;
 
-
+color:white
     }
 
     &.is-selected{

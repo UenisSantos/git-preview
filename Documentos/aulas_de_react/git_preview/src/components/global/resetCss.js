@@ -23,6 +23,10 @@ const ResetCss = createGlobalStyle`
  * 3. Remove gray overlay on links for iOS.
  */
 
+
+
+
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -39,6 +43,7 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background:rgb(45, 45, 45)
 }
 
 /**

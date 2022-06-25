@@ -4,7 +4,13 @@ import * as Estilo from './styled'
 const NoSearch = () => {
 	return (
 		<Estilo.Wrapper>
-			<h1>Nenhum usuário pesquisado</h1>
+			<h1>no momento não a usuario</h1>
+
+
+			<h3>faça  uma  uma pesquisa e tente novamente</h3>
+
+
+
 		</Estilo.Wrapper>
 	)
 }
