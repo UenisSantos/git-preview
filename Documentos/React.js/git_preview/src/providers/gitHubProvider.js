@@ -18,7 +18,7 @@ const GitHubProvider = ({ children }) => {
 			id: undefined,
 			avatar: undefined,
 			login: undefined,
-			name: 'Janaina',
+			name: 'uenisSantos',
 			html_url: undefined,
 			blog: undefined,
 			company: undefined,

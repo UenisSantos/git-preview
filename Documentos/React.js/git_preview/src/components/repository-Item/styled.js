@@ -8,10 +8,10 @@ export const Wrapper = styled.div`
     min-height: 150px;
     padding: 8px;
     align-content: center;
-
+    word-break: break-word;
     &:hover{
         border: 1px solid aquamarine;
-      
+
     }
 `;
 
@@ -26,7 +26,7 @@ export const WrapperFullName = styled.h2`
     font-size:16px ;
     font-weight: bold;
     margin: 8px 0;
-    
+
 
 `;
 
@@ -38,5 +38,5 @@ export const WrapperLink = styled.a`
         color: aquamarine;
 
     }
-    
+
 `;
